@@ -1,4 +1,16 @@
 ElToro::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/about"
+
+  get "pages/lunch"
+
+  get "pages/dinner"
+
+  get "pages/drinks"
+
+  get "pages/gallery"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
