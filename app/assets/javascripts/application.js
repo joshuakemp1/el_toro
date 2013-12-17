@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
 /*
  * jQuery Tools 1.2.5 - The missing UI library for the Web
  * 
