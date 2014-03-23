@@ -12,6 +12,8 @@
  *= require_tree .
  */
 
+*= require lightbox
+
 @font-face {
     font-family: "IM Fell Double Pica SC";
     font-style: normal;

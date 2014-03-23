@@ -1,9 +1,13 @@
 <h1>Gallery</h1>
 
-<%= javascript_include_tag "alert" %>
+<%= stylesheet_link_tag    "lightbox.css", :media => "all" %>
 
+<!-- <a href="01.jpg" data-lightbox="roadtrip">image #2</a>
+<a href="02.jpg" data-lightbox="roadtrip">image #3</a>
+<a href="06b.jpg" data-lightbox="roadtrip">image #4</a> -->
 
-<a href="javascript:void(0);" onclick="popup('http://www.google.com',
-'googlePopup',700,600);">OPEN GOOGLE</a>
+<a href="01.jpg" rel="data-lightbox" >Image #1</a>
+<a href="02.jpg" rel="data-lightbox" >Image #3</a>
+<a href="06b.jpg" rel="data-lightbox" >Image #4</a>
 
 
