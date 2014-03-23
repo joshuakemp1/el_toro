@@ -11,11 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require fancybox
-
-
-    $(document).ready(function() {
-    $("a.fancybox").fancybox();
-    });
 
 
